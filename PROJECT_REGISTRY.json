@@ -1,0 +1,76 @@
+{
+  "repo_purpose": "Echo Universe Strategic Intelligence Registry",
+  "last_updated": "2026-06-24",
+  "projects": [
+    {
+      "name": "Echo Nexus",
+      "lane": "Core Infrastructure",
+      "status": "L2 Candidate",
+      "commercial_readiness": "D+",
+      "technical_readiness": "Code complete, DB missing",
+      "proof_status": "Not proven",
+      "security_risk": "Medium",
+      "next_action": "Install MySQL/MariaDB, boot server, test ECHO_LIVE"
+    },
+    {
+      "name": "Art of Proof",
+      "lane": "Commercial Product",
+      "status": "80% Complete",
+      "commercial_readiness": "B+",
+      "technical_readiness": "Not inspected",
+      "proof_status": "Template exists",
+      "security_risk": "Low",
+      "next_action": "Upload repo, inspect, finish 20%"
+    },
+    {
+      "name": "EchoShield",
+      "lane": "Commercial Service",
+      "status": "Service-ready",
+      "commercial_readiness": "A-",
+      "technical_readiness": "Method exists",
+      "proof_status": "Sample needed",
+      "security_risk": "Low",
+      "next_action": "Build intake form, sample report, payment link"
+    },
+    {
+      "name": "EchoMap",
+      "lane": "Visualization",
+      "status": "Visualizer exists",
+      "commercial_readiness": "F",
+      "technical_readiness": "No data integration",
+      "proof_status": "None",
+      "security_risk": "Low",
+      "next_action": "Hold"
+    },
+    {
+      "name": "EchoLibrary",
+      "lane": "Education/Media",
+      "status": "Concept",
+      "commercial_readiness": "F",
+      "technical_readiness": "No code",
+      "proof_status": "None",
+      "security_risk": "Low",
+      "next_action": "Hold"
+    },
+    {
+      "name": "LANGΩ",
+      "lane": "Education",
+      "status": "Concept",
+      "commercial_readiness": "F",
+      "technical_readiness": "No code",
+      "proof_status": "None",
+      "security_risk": "Low",
+      "next_action": "Hold"
+    },
+    {
+      "name": "By Grace Consulting",
+      "lane": "Consulting",
+      "status": "Consulting",
+      "commercial_readiness": "B",
+      "technical_readiness": "Capability needed",
+      "proof_status": "None",
+      "security_risk": "Medium",
+      "next_action": "Write capability statement"
+    }
+  ]
+}
