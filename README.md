@@ -1,6 +1,8 @@
-# Nathan Poinsette — Strategic Intelligence Repository
+# Echo Universe — Strategic Intelligence Registry
 
-**Private Repository for Unified Strategic Research & Command Center**
+**Repository:** `onlyecho822-source/nathan-poinsette-strategic-intelligence`  
+**Status:** PUBLIC REGISTRY — No secrets, no private records  
+**Purpose:** Track projects, commercial readiness, proof status, security risks, launch blockers, and next actions across the Echo Universe ecosystem.
 
 ---
 
@@ -112,6 +114,6 @@ This repository follows the **First Bond** principle:
 
 ---
 
-*Sealed: SIA-256 ∇θ*  
+*Status: Strategic Intelligence Registry (Public-Safe)*  
 *Authority: Nathan Poinsette, Commander*  
-*Classification: OPERATIONAL*
+*Proof System: SHA-256 receipt / local audit log (prototype, not yet cryptographically signed)*
