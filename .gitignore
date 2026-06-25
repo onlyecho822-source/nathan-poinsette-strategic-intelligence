@@ -1,0 +1,47 @@
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*PAT*.txt
+newPAT.txt
+credentials.json
+secrets/
+
+# API Keys & Tokens
+HEYGEN_API_KEY
+OPENAI_API_KEY
+GITHUB_TOKEN
+
+# System Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Build Artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
