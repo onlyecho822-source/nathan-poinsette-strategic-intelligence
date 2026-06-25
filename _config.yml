@@ -1,0 +1,67 @@
+# GitHub Pages Configuration
+# Strategic Intelligence Repository
+
+title: Strategic Intelligence Repository
+description: Consolidated research, audits, and governance documentation for Echo Nexus
+author: Nathan Poinsette
+email: npoinsette@gmail.com
+
+# Theme
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Site settings
+url: "https://onlyecho822-source.github.io/nathan-poinsette-strategic-intelligence"
+baseurl: ""
+permalink: /:title/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Navigation
+header_pages:
+  - README.md
+  - MASTER_INDEX.md
+  - META_REPORT.md
+  - RESEARCH_LINKS.md
+  - FULL_WINDOW_AUDIT.md
+  - SECURITY_RISK_REGISTER.md
+  - STATUS_LOG.md
+  - PROJECT_REGISTRY.json
+  - COMMERCIAL_GRADE_SCOREBOARD.md
+  - FIRST_DOLLAR_PLAN.md
+  - PROOF_CLAIM_POLICY.md
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from site
+exclude:
+  - .gitignore
+  - .git
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github
+
+# Include
+include:
+  - _pages
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
